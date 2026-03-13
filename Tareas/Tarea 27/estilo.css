@@ -1,0 +1,24 @@
+header{
+    background-color: chartreuse;
+}
+
+footer{
+    background-color:aqua;
+}
+
+nav{
+    background-color:chocolate;
+}
+
+.caja{  
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap-reverse;
+   justify-content: space-evenly; 
+   border: 3px solid black;
+}
+
+article{
+    border: 3px solid black;
+    text-align: left;
+}

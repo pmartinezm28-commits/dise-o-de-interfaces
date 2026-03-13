@@ -1,0 +1,22 @@
+
+.env{
+    height: 800px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(9,fr);
+    grid-template-rows: repeat(9,fr);
+}
+
+
+.contenedor{
+    border: solid 2px rgb(81, 77, 77);
+    background-color: rgb(169, 161, 161);
+    border-radius: 5px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 8;
+    grid-column-end: 9;
+
+    padding-left: 10px;
+    padding-top: 10px;
+}

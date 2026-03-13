@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pablo Martínez Masero">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Ejercicio con diseño propio en el que aplicamos offset, reordenación y etiquetas block y none">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Ejercico 33</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1> Ejemplo de offset</h1>
+        
+        <div class="row">
+            <div class="col-4 col-md-6 offset-md-6">1</div>
+        </div>
+        <div class="row">
+            <div class="col-8 offset-md-2">1</div>
+        </div>
+        <div class="row">
+            <div class="col-6 offset-md-7 offset-2">1</div>
+        </div>
+    </div>
+    
+    <h1>Ejemplo de reordenación</h1>
+    <div class="row">
+        <div class="col order-md-2"> Col 1 </div>
+        <div class="col order-md-3"> Col 2 </div>
+        <div class="col order-md-1"> Col 3 </div>
+    </div>
+
+    <h1>Etiquetas block y none</h1>
+    <span class="d-none d-lg-block">1. Se ve en grande</span>
+    <span class="d-block d-lg-none">2. No se ve en grande</span>
+    <span class="d-none d-sm-block">3. No se ve en pequeño</span>
+    <span class="d-block d-sm-none">4. Se ve en pequeño</span>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+     crossorigin="anonymous" ></script>
+    
+</body>
+</html>

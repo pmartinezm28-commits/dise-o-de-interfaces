@@ -1,0 +1,8 @@
+.row * {
+    border: 3px solid rgb(62, 62, 239);
+}
+
+*{
+    border: 0px;
+    padding: 0px;
+}

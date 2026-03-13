@@ -1,0 +1,21 @@
+.env{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-gap: 20px;
+    grid-template-rows: repeat(3,200px);
+    grid-auto-flow: column; 
+}
+
+.impares{
+    background-color: rgb(15, 15, 15);
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pares{
+    background-color: rgb(173, 170, 170);
+    border-radius: 10px;
+    text-align: center;
+    
+}

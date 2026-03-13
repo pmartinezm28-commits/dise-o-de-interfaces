@@ -1,0 +1,19 @@
+table,th,td{
+    border: 3px solid;
+}
+
+
+.rojo{
+    border: 1px solid;
+    background-color: red;
+}
+
+.amarillo{
+    border: 1px solid;
+    background-color:  yellow;
+}
+
+.azul{
+    border: 1px solid;
+    background-color:  blue;
+}

@@ -1,0 +1,38 @@
+nav{
+    border: 8px solid white;
+    background: #88D8F2;
+    float: left;
+    color: white;
+    /*width: 20%;*/
+    width: calc(20% - 6px);
+    min-height: 400px;
+	height: 95vh;
+    text-align: center;
+    line-height: 100vh;
+}
+
+main{
+    border: 8px solid white;
+    background: #75EB6C;
+    float: left;
+    color: #eee;
+    width: calc(55% - 10px);
+    min-height: 400px;
+    text-align: center;
+	height: 95vh;
+    text-align: center;
+    line-height: 100vh;
+}
+
+aside{
+    border: 8px solid white;
+    background: #F55660;
+    float: left;
+    color: #eee;
+    width: calc(20% - 6px);
+    /*min-height: 400px;*/
+    line-height: 288px; 
+	height: 95vh;
+    text-align: center;
+    line-height: 100vh;
+}

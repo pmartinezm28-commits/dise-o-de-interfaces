@@ -1,0 +1,28 @@
+@media only screen and (min-width: 600px) {
+    .menu{
+        display: flex;
+        flex-wrap: wrap;        
+        margin: 0 auto;
+        margin-top: 40px;
+        flex-direction: row;
+        
+    }
+    
+    div{ 
+        background-color: rgb(233, 63, 63);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu{
+        display: flex;
+        flex-wrap: wrap;        
+        margin: 0 auto;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    div{
+        background-color: rgb(96, 96, 236);
+    }
+}

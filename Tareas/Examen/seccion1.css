@@ -1,0 +1,120 @@
+/*************************************************
+// Prueba de DAW2 (DIW)
+// Autor: Pablo Martínez Masero
+// Descripción: Fichero de estilos CSS
+// Nombre del fichero: estilos/estilos.css
+**************************************************/
+
+
+@media only screen and (min-width: 400px) {
+    .menu{
+        display: grid;
+        width: 200px;
+        height: 300px;
+        grid-template-columns: repeat(5,fr);
+        grid-template-rows: repeat(5,fr);
+    }
+    .uno{
+        z-index: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .dos{
+        z-index: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .tres{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        z-index: 3;
+    }
+
+    footer{
+         background-color: rgb(63, 233, 108);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .menu{
+        display: grid;
+        width: 200px;
+        height: 300px;
+        grid-template-columns: repeat(5,fr);
+        grid-template-rows: repeat(5,fr);
+    }
+
+     .uno{
+        z-index: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .dos{
+        z-index: 1;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .tres{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        z-index: 3;
+    }
+    footer{
+         background-color: rgb(63, 233, 108);
+    }
+}
+
+
+
+@media only screen and (min-width: 800px) {
+     .menu{
+        display: grid;
+        width: 200px;
+        height: 300px;
+        grid-template-columns: repeat(5,fr);
+        grid-template-rows: repeat(5,fr);
+    }
+
+     .uno{
+        z-index: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .dos{
+        z-index: 1;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .tres{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        z-index: 2;
+    }
+    footer{
+         background-color: rgb(63, 233, 108);
+    }
+}

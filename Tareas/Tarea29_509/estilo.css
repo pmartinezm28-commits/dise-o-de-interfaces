@@ -1,0 +1,33 @@
+@media screen{
+    header{
+        border: solid black 3px;
+        background-color: rgb(83, 83, 230);
+        padding: 10px;
+    }
+    div{
+        border:solid black 3px;
+        background-color: rgb(58, 226, 58);
+        padding: 10px;
+    }
+    footer{
+        border:solid black 3px;
+        background-color: rgb(236, 79, 79);
+        padding: 10px;
+    }
+
+}
+
+@media print{
+    header, footer, nav, aside {
+        display: none;
+    }
+    body {
+       background-image: none;
+    }
+    a:after {
+	    content:" <" attr(href) ">";
+    }
+    h3 {
+	page-break-before: always;
+}
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    
+}
+h1, nav{
+    color: rgb(255, 145, 0);
+    
+}
+div{
+    border:white 1px inset;
+    border-radius: 4px;
+}
+
