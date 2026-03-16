@@ -1,13 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
 body{
-    background-color: black;
+    background-color: rgb(18, 17, 17);
+    color: rgb(233, 102, 16);
+    /* tipografia de miedo */
     
 }
-h1, nav{
-    color: rgb(255, 145, 0);
-    
-}
-div{
-    border:white 1px inset;
-    border-radius: 4px;
+h1, h3{
+    text-align: center;
+    font-family:'Fontdiner Swanky', cursive;
+
 }
 
+a{
+    border:rgb(233, 102, 16) 2px inset;
+    border-radius: 3px;
+    padding: 7px;
+    margin: 4px;
+}
+
+.menu{
+    text-align: center;
+}
+
+.cuadro, .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.parrafos{
+    border:rgb(233, 102, 16) 2px solid;
+    font-family: 'Grechen Fuemen';
+    
+}
